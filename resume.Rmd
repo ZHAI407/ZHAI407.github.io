@@ -6,7 +6,82 @@ output:
     toc_float: true
 ---
 
-### Academic experience
+### Education
+<strong>Capital University of Economics and Business</strong> (Sep 2021 - Jun 2025)
 
+Bachelor of Economics in Economic Statistics
 
-### Professional experience
+<strong>GPA:</strong> 92.37/100
+
+<strong>Honors:</strong> Multiple Merit-based Scholarships & Merit Undergraduate Student Awards
+
+<strong>Key Quantitative Courses:</strong> 
+Probability, Mathematical Statistics, Applied Regression Analysis, Time Series Analysis, Bayesian Statistics, Nonparametric Statistics, Multivariate Analysis, Sampling Techniques, Python for Data Analysis, Statistical Programming (R), C++
+
+<strong>Columbia University</strong> (Sep 2025 - May 2027(Expected))
+
+Master of Science in Biostatistics
+
+<strong>Key Quantitative Courses (First Semester):</strong> 
+Probability, Data Science, Principles of Epidemiology, Biostatistics ...
+
+<div style="margin-bottom: 30px;"></div>
+
+### Academic Experience
+<strong>Undergraduate Research Assistant, Biomedical Statistics Research Group</strong> (Sep. 2024 – May. 2025)
+
+Reviewed literature on survival analysis, meta-analysis, high dimensional regression, Bayesian statistics, and deep learning in clinical treatment and disease prevention
+
+Participated in weekly group sessions and presented review outcomes 
+
+<div style="margin-bottom: 20px;"></div>
+
+<strong>Factors and Prospects of Medical Accompaniment in Modern China</strong> (Nov. 2022 – Apr. 2024)
+
+Reviewed literature on the modern healthcare services industry 
+
+Researched the public awareness and demand for medical accompaniment services both online and onsite
+
+Embarked on the survey questionnaire design, onsite interviews, empirical data collection, and feasible suggestion proposal as a dedicated team member
+
+Conducted interviews with 151 participants and collected 300 survey responses to study core factors such as individual health status, demographic information, and healthcare demands
+
+Mainly contributed to data cleansing, preprocessing, analytics, and visualization
+
+<div style="margin-bottom: 30px;"></div>
+
+### Professional Experience
+<strong>Beijing Longruan Technologies Co., Ltd.</strong> (Aug. 2024 – Oct. 2024)
+
+Intern, AI R&D Center
+
+Assisted in developing an intelligent coal mining information management system using geospatial databases, NLP, and LLMs
+
+Utilized GIS toolkits for data visualization and spatial modeling
+
+Processed spatial data and developed predictive models for trend analysis and risk assessment
+
+Performed data annotation and text preprocessing tasks
+
+<div style="margin-bottom: 20px;"></div>
+
+<strong>Beijing Wenge Technology Co., Ltd.</strong> (Jun. 2024 – Aug. 2024)
+
+Intern, General AI Support Department
+
+Conducted data collection, cleansing, preprocessing, and denoising
+
+Performed data verification and maintained annotation standards for consistency
+
+Assisted in corpus annotation for high-quality training datasets to support LLM development
+
+Optimized text preprocessing methods to enhance model input quality
+
+Contributed to project proposals, literature reviews, and presentation materials
+
+<div style="margin-bottom: 30px;"></div>
+
+### Skills
+<strong>Language:</strong> Chinese (Native), English (Proficient)
+
+<strong>Computer Skills:</strong> R, C++, Python, SPSS, STATA, EViews, PR, Au, Microsoft Office Suite

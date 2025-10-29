@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 I am Boran Zhai, currently studying at Columbia University, majoring in Biostatistics.
 
 <i class="fa fa-book" style="color: #2873B3; margin-right: 10px;"></i>
-<strong>Current Courses:</strong> Probability, Data Science, Principle of Epidemiology, Biostatistics.
+<strong>Current Courses:</strong> Probability, Data Science, Principles of Epidemiology, Biostatistics.
 
 <i class="fa fa-heart" style="color: #df65b0; margin-right: 10px;"></i>
 <strong>Interests:</strong> Baking, Reading, Traveling.
