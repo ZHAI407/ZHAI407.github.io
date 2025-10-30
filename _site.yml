@@ -5,7 +5,7 @@ navbar:
   left:
     - text: "Resume"
       href: resume.html
-    - text: "Project"
+    - text: "Projects"
       href: problem2.html     
   right:
     - text: "About"
@@ -15,7 +15,7 @@ navbar:
     - icon: fa-github fa-lg
       href: https://github.com/ZHAI407
     - icon: fa-linkedin fa-lg
-      href: https://linkedin.com/in/YOUR_NAME
+      href: https://www.linkedin.com/in/boran-zhai-2240a3397/
 output:
   html_document:
     theme: united

@@ -35,8 +35,13 @@ I have a deep interest in Data Science and Biostatistics, and I hope to continue
 ## Quick Links
 The link of my resume: [Resume](resume.html)
 
-The link of HW4 Problem 2: [Project - Problem 2](problem2.html)
+The link of HW4 Problem 2: [Project - Instacart flexdashboard](problem2.html)
 
 The link of the introduction of this site: [About This Site](about.html)
 
 The link of Contact: [Email](mailto:<bz2570@cumc.columbia.edu>) | [GitHub](https://github.com/ZHAI407)
+
+<div style="margin-bottom: 30px;"></div>
+
+## Contact Information
+<strong>Mobile:</strong> +1(646)9634950 | <strong>Email:</strong> bz2570@cumc.columbia.edu

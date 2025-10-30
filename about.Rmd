@@ -1,17 +1,37 @@
 ---
 title: "About This Site"
 output: 
-  html_document:
-    toc: true
-    toc_float: true
+  html_document
 ---
 
-## 
+<div style="margin-bottom: 30px;"></div>
 
+This personal website was created as part of my academic coursework to showcase my information and project in my homework.
 
+<div style="margin-bottom: 30px;"></div>
 
-### About this site
+<strong>Site Details:</strong>
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
+Built with R Markdown for content creation; HTML/CSS for styling and layout; GitHub Pages for hosting
 
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
+Source Code: The complete source code for this website is available on GitHub.
+
+This site includes: Personal Website (A brief introductory landing page | resume | Navigation links) and Interactive Dashboard (Problem 2)
+
+<div style="margin-bottom: 30px;"></div>
+
+<strong>Site Structure:</strong>
+
+Home: Introduction and overview
+
+About: This page - technical details about the site
+
+Resume: Academic and professional experience
+
+Projects: Data science projects and interactive visualizations
+
+<div style="margin-bottom: 30px;"></div>
+
+<strong>Contact</strong>
+
+For questions about this website or my work, please feel free to email me.

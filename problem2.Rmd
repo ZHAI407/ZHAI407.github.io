@@ -1,11 +1,76 @@
 ---
-title: "problem2"
-author: "Boran Zhai"
-date: "2025-10-29"
-output: html_document
+title: "Flexdashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(plotly)
+library(flexdashboard)
+library(p8105.datasets)
+library(lubridate)
+set.seed(123)
+```
+
+Column {data-width=600}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+data("instacart")
+instacart_sample <- instacart |> 
+  sample_n(2000)
+
+instacart_sample |> 
+  mutate(aisle = fct_reorder(aisle, add_to_cart_order)) |> 
+  plot_ly(y = ~add_to_cart_order, color = ~aisle, type = "box", colors = "viridis") |> 
+  layout(
+    title = "Add to Cart Order Distribution by Aisle"
+  )
+```
+
+
+Column {data-width=400}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+instacart_sample |> 
+  count(department) |> 
+  mutate(department = fct_reorder(department, n)) |> 
+  plot_ly(x = ~department, y = ~n, color = ~department, type = "bar", colors = "viridis") |> 
+  layout(
+    title = "Sales Distribution Across Product Departments",
+    xaxis = list(title = "Product Department"),
+    yaxis = list(title = "Number of Orders")
+  )
+```
+
+
+### Chart C
+
+```{r}
+hourly_orders <- instacart_sample |> 
+  count(order_hour_of_day, name = "total_items")
+
+hourly_orders |> 
+  plot_ly(
+    x = ~order_hour_of_day, 
+    y = ~total_items, 
+    type = "scatter", 
+    mode = "lines+markers",
+    line = list(color = "green"),
+    marker = list(color = "blue")
+  ) |> 
+  layout(
+    title = "Total Items Ordered by Hour of Day",
+    xaxis = list(title = "Hour of Day (0-23)"),
+    yaxis = list(title = "Total Items Ordered")
+  )
 ```
 
